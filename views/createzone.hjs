@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Zone</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Create Zone</h1>
+    <form action = "/api/zone" method="Post">
+    <input type="text" name="name" placeholder="Name" />
+    <input type="text" name="zipcodes" placeholder="Zip Codes" />
+    <input type="Submit" value="Create Zone" />
+    </form>
+  </body>
+</html>
